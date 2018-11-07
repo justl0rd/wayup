@@ -1,0 +1,286 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #272c2f;
+	font-size: 14px;
+	letter-spacing: 0.0295em;
+}
+
+div, p, form, input, a, span, button, textarea {
+	box-sizing: border-box;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	letter-spacing: 0.018em;
+	line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 23px;
+	margin: 73px 0 16px 0;
+}
+
+h2 {
+	font-size: 19px;
+	margin-bottom: 39px;
+	padding-top: 2px;
+}
+
+h3 {
+	font-size: 17px;
+
+}
+
+.cards_title {
+	text-transform: none;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+.navigation .container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+.navigation {
+	background: #455991;
+	padding: 30px 0 35px 0;
+}
+
+.navigation a {
+	color: #fff;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-left: 88px;
+}
+
+.menu li a{
+	font-size: 15px;
+	margin-right: 28px;
+	border-bottom: 1px solid #fff;
+}
+
+.call {
+	font-size: 18px;
+}
+
+.main_title_text {
+	width: 345px;
+}
+
+.cards {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.cards a {
+	display: block;
+	font-size: 15px;
+	color: #22a2ec;
+	margin-top: 12px;
+}
+
+.cards_text {
+	padding-top: 15px;
+	letter-spacing: 0.054em;
+	line-height: 1.55em;
+}
+
+.card {
+	width: 308px;
+	border: 1px solid #d5d5d5;
+	padding: 26px 25px 25px 28px;
+}
+
+.card_1 {
+	height: 220px;
+}
+
+.card_2 {
+	height: 220px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.33);
+}
+
+.card_3 {
+	height: 250px;
+}
+
+.contact_information {
+	margin: 47px 0 65px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.form {
+	width: 360px;
+}
+
+.form input {
+	width: 239px;
+	height: 46px;
+	border: 1px solid #d6d6d6;
+	padding-left: 22px;
+	margin-bottom: 11px;
+	font-family: Arial, sans-serif;
+	color: #272c2f;
+	font-size: 15px;
+	letter-spacing: 0.035em;
+}
+
+.form textarea {
+	width: 359px;
+	height: 124px;
+	border: 1px solid #d6d6d6;
+	padding: 12px 22px;
+	font-family: Arial, sans-serif;
+	color: #272c2f;
+	letter-spacing: 0.035em;
+	font-size: 15px;
+}
+
+.form_btn {
+	display: block;
+	width: 166px;
+	padding: 13px 0;
+	margin: 21px 0 17px;
+	background: #ebce0d;
+	color: #272c2f;
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 0.035em;
+}
+
+.big_card {
+	width: 547px;
+	height: 456px;
+	background: #184c6b;
+	color: #c0ddee;
+	border-radius: 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 42px;
+}
+
+.data {
+	font-size: 12px;
+	color: #84898d;
+	letter-spacing: 0.01em;
+}
+
+.intro {
+	width: 215px;
+}
+
+.intro_text {
+	margin: 25px 0 17px;
+}
+
+.intro_text_right {
+	padding: 0 1px 15px 0;
+}
+
+.footer {
+	background: #455991;
+	padding: 31px 0;
+	font-size: 13px;
+	color: #fff;
+}
+
+.footer .container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn {
+	width: 145px;
+	padding: 11px 0;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px
+}
+
+.btn_circl {
+	width: 148px;
+	border-radius: 19px;
+}
+
+.white_bg {
+	width: 229px;
+	padding: 10px 0;
+	text-align: center;
+	background: #fff;
+	color: #455991;
+	border-radius: 3px;
+}
+.footer_first_element {
+	margin-right: 7px;
+}
+.footer_last_element {
+	margin-left: 13px;
+}
