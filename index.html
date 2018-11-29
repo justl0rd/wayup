@@ -4,241 +4,48 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MY PORTFOLIO</title>
-	<meta name="description" content="Портфолио выполненых работ. Качественная верстка современных макетов">
+	<meta name="description" content="Портфолио выполненых работ.">
 	<meta name="keywords" content="Портфолио, Верстка, CSS3 анимация, MYPORTFOLIO">
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/favicon/favicon.ico">
 	<link rel="icon" type="image/png" sizes="196x196" href="img/favicon/favicon-192.png">
-	<!-- OG Tags -->
-	<meta property="og:title" content="MY PORTFOLIO">
-	<meta property="og:description" content="Портфолио выполненых работ. Качественная верстка современных макетов">
-	<meta property="og:type" content="article">
-	<meta property="og:image" content="#" >
-	<meta property="og:site_name" content="Портфолио Шуляка Сергея">
-	<!-- Chrome, Firefox OS and Opera -->
- 	<meta name="theme-color" content="#b7bbb6">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#b7bbb6">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#b7bbb6">
 	<!-- CSS Styles -->
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 	<header class="header" id="header">
 		<div class="container">
-			<nav class="nav d-flex jcsb">
-				<a href="#" class="logo">
-					<img src="img/logo.png" alt="MYPORTFOLIO">
-				</a>
-				<ul class="menu d-flex">
-					<li class="menu__item">
-						<a href="#about" class="menu__link">
-							обо мне
+			<div class="sites">
+				<h1>Список работ:</h1>
+				<ul>
+					<li>
+						<a href="dz4/index.html" target="_blank">
+							Введение в CSS
 						</a>
 					</li>
-					<li class="menu__item">
-						<a href="#skills" class="menu__link">
-							навыки
+					<li>
+						<a href="dz5/index.html" target="_blank">
+							Свойства, правила, форматирование и БЭМ
 						</a>
 					</li>
-					<li class="menu__item">
-						<a href="#work" class="menu__link">
-							работы
+					<li>
+						<a href="dz6/index.html" target="_blank">
+							Большое практическое занятие
+						</a>
+					</li>
+					<li>
+						<a href="dz8/index.html" target="_blank">
+							Отзывчивость в CSS
+						</a>
+					</li>
+					<li>
+						<a href="dz10/index.html" target="_blank">
+							Bootstrap CSS в активной практике
 						</a>
 					</li>
 				</ul>
-				<a href="mailto:info@myname.com" class="info-mail">info@myname.com</a>
-			</nav>
-			<div class="intro">
-				<h1 class="intro__title">
-					Дело, которым я живу
-				</h1>
-				<p class="intro__text">
-					верстка & frontend
-				</p>
-			</div>
-			<a href="#about" class="scroll">
-				&darr;
-			</a>
-		</div>
-	</header>
-	<section class="about" id="about">
-		<div class="container">
-			<h2 class="about-title">
-				обо мне
-			</h2>
-			<div class="info d-flex jcsb">
-				<div class="desc">
-					<h3 class="desc__title opacity-text">
-						бэкграунд
-					</h3>
-					<p class="desc__text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-					</p>
-					<p class="desc__text">
-						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.
-					</p>
-					<p class="desc__text">
-						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quiis aute irure dolor in reprehenderit in is aute irure dolor in reprehenderit in is aute irure dolor in reprehenderit in.
-					</p>
-				</div>
-				<div class="connect">
-					<div class="rewards">
-						<h3 class="rewards__title opacity-text">
-							Заслуги
-						</h3>
-						<div class="rewards__items d-flex">
-							<div class="rewards__item">
-								<div class="rewards__count">
-									75
-								</div>
-								<p class="rewards__text">
-									Реализованных проектов
-								</p>
-							</div>
-							<div class="rewards__item">
-								<div class="rewards__count">
-									154
-								</div>
-								<p class="rewards__text">
-									Положительных отзыва
-								</p>
-							</div>
-							<div class="rewards__item">
-								<div class="rewards__count">
-									8
-								</div>
-								<p class="rewards__text rewards__text_small">
-									Лет опыта
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="contact">
-						<h3 class="contact__title opacity-text">
-							Связь
-						</h3>
-						<div class="contact-wrap d-flex jcsb">
-							<ul class="social">
-								<li class="social__item">
-									<a  href="#" class="social__link">
-										freelance.ru/myname
-									</a>
-								</li>
-								<li class="social__item">
-									<a  href="#" class="social__link">
-										vk.com/12343
-									</a>
-								</li>
-								<li class="social__item">
-									<a href="mailto:info@sitename.ru" class="social__link">
-										info@sitename.ru
-									</a>
-								</li>
-							</ul>
-							<div class="write d-flex jcsb">
-								<div class="write__icon"></div>
-								<p class="write__text">
-									Не стесняйтесь, пишите
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
-	</section>
-	<section class="skills" id="skills">
-		<div class="container">
-			<h2 class="skills-title">
-				Навыки
-			</h2>
-			<div class="skills-list d-flex jcsb">
-				<div class="skills-list__item d-flex">
-					<div class="skills-list__percent">
-						98%
-					</div>
-					<p class="skills-list__name">
-						Photoshop
-					</p>
-				</div>
-				<div class="skills-list__item d-flex">
-					<div class="skills-list__percent">
-						99%
-					</div>
-					<p class="skills-list__name">
-						html5
-					</p>
-				</div>
-				<div class="skills-list__item d-flex">
-					<div class="skills-list__percent">
-						100%
-					</div>
-					<p class="skills-list__name">
-						CSS3
-					</p>
-				</div>
-				<div class="skills-list__item d-flex">
-					<div class="skills-list__percent">
-						0%
-					</div>
-					<p class="skills-list__name">
-						Лень
-					</p>
-				</div>
-			</div>
-
-		</div>
-	</section>
-	<section class="work" id="work">
-		<div class="container">
-			<h2 class="work-title">
-				Работы
-			</h2>
-			<div class="work-list d-flex jcsb">
-				<div class="work-list__item">
-					<img src="img/canyon.jpg" alt="Canyon" class="work-list__pic">
-					<div class="work-list__overflow">
-						<p class="work-list__name">
-							Название работы
-						</p>
-						<a href="#" class="work-list__link">
-							Смотреть
-						</a>
-					</div>
-				</div>
-				<div class="work-list__item">
-					<img src="img/river.jpg" alt="Riwer" class="work-list__pic">
-					<div class="work-list__overflow">
-						<p class="work-list__name">
-							Название работы
-						</p>
-						<a href="#" class="work-list__link">
-							Смотреть
-						</a>
-					</div>
-				</div>
-				<div class="work-list__item">
-					<img src="img/winter.jpg" alt="Winter" class="work-list__pic">
-					<div class="work-list__overflow">
-						<p class="work-list__name">
-							Название работы
-						</p>
-						<a href="#" class="work-list__link">
-							Смотреть
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer class="footer" id="footer">
-		<div class="container">
-			<p class="future opacity-text">
-				2018-2099 / Смотрю в будущее
-			</p>
-		</div>
-	</footer>
+	</header>		
 </body>
 </html>
