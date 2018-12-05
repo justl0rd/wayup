@@ -216,33 +216,17 @@ button:active {
 
 .nav__btn {
 	display: none;
+	position: relative;
 	width: 25px;
-	height: 2px;
-	background: red;
+	height: 25px;
+	font-size: 26px;
+	color: #3f4b60;
 	cursor: pointer;
 }
 
-.nav__btn:before {
-	display: block;
-	content: '';
-	width: 25px;
-	height: 2px;
-	background: red;
-	cursor: pointer;
-	transform: translateY(-7px);
+.nav__btn-icon {
+	position: absolute;
 }
-.nav__btn:after {
-	display: block;
-	content: '';
-	width: 25px;
-	height: 2px;
-	background: red;
-	cursor: pointer;
-	transform: translateY(5px);
-}
-
-
-
 
 
 /* ----- Pagination ----- */
@@ -416,6 +400,15 @@ button:active {
 	border-bottom: 1px solid;
 }
 
+.page-info__link:hover {
+	color: #293857;
+	border-bottom: none;
+}
+
+.page-info__link:active {
+	color: #19556b;
+}
+
 .page-info__icon {
 	font-family: Arial, sans-serif;
 	font-size: 12px;
@@ -443,10 +436,32 @@ button:active {
 	font-size: 16px;
 	color: #a1a6af;
 }
+.page-nav__link_small {
+	display: block;
+	font-family: 'Museo Sans 300', sans-serif;
+	font-size: 13px;
+	color: #a1a6af;
+	transition: all 0.5s ease;
+}
+
+.page-nav__link:hover .page-nav__link_small{
+	color: #b81c31;
+}
+
+.page-nav__link:active .page-nav__link_small{
+	color: #b81c31;
+}
 
 .page-nav__link:hover {
+	color: #cc5f6d;
 	border-color: rgba(184, 28, 49, 1);
 }
+
+.page-nav__link:active {
+	color: #cc5f6d;
+	border-color: rgba(184, 28, 49, 0.7);
+}
+
 
 /* ----- Main Page ----- */
 /* ----- Invite ----- */
