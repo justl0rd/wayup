@@ -2,7 +2,6 @@
 
 @font-face {
   font-family: 'Museo Sans 100';
-  font-display: auto;
   src: url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
   src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
@@ -13,7 +12,6 @@
 
 @font-face {
   font-family: 'Museo Sans 300';
-  font-display: auto;
   src: url('../fonts/MuseoSansCyrl-300.eot'); /* IE9 Compat Modes */
   src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
@@ -24,7 +22,6 @@
 
 @font-face {
   font-family: 'Museo Sans 700';
-  font-display: auto;
   src: url('../fonts/MuseoSansCyrl-700.eot'); /* IE9 Compat Modes */
   src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'), /* Super Modern Browsers */
@@ -32,7 +29,6 @@
        url('../fonts/MuseoSansCyrl-700.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/MuseoSansCyrl-700.svg#Natasha') format('svg'); /* Legacy iOS */
 }
-
 
 /* ----- Specification ----- */
 
@@ -99,7 +95,7 @@ h5 {
 }
 
 h6 {
-	font-size: 12.5px;
+	font-size: 13px;
 }
 
 a,
@@ -146,6 +142,8 @@ button:active {
 	border-bottom: 1px solid rgba(88, 100, 122, 1) !important;
 }
 
+/* ----- Сollective Sections ----- */
+
 /* ----- Header ----- */
 
 .header {
@@ -153,7 +151,7 @@ button:active {
 	letter-spacing: 0;
 	border-top:5px solid #58647a;
 	background: rgba(191, 194, 200, 0.41);
-	border-bottom: 4px solid rgba(88, 100, 122, 0.086);
+	box-shadow: 0 0 0 4px rgba(88, 100, 122, 0.086);
 	padding: 17px 0 7px;
 }
 
@@ -171,10 +169,7 @@ button:active {
 
 .menu {
 	width: 100%;
-	margin: 0 16px 12px 21px;
-}
-
-.menu__item {
+	margin: 0 18px 12px 19px;
 }
 
 .menu__link {
@@ -206,18 +201,262 @@ button:active {
 	margin-right: 2px;
 }
 
+.btn__phone_mirror {
+	margin-right: 6px;
+    transform: rotate(90deg);
+}
+
+.nav-trigger {
+	display: none;
+}
+
+#nav-trigger:checked ~ nav {
+	display: block !important;
+}
+
+.nav__btn {
+	display: none;
+	width: 25px;
+	height: 2px;
+	background: red;
+	cursor: pointer;
+}
+
+.nav__btn:before {
+	display: block;
+	content: '';
+	width: 25px;
+	height: 2px;
+	background: red;
+	cursor: pointer;
+	transform: translateY(-7px);
+}
+.nav__btn:after {
+	display: block;
+	content: '';
+	width: 25px;
+	height: 2px;
+	background: red;
+	cursor: pointer;
+	transform: translateY(5px);
+}
+
+
+
+
+
+/* ----- Pagination ----- */
+
+.pagination {
+	background: #3a4456;
+	border-radius: 0;
+	padding-top: 40px;
+	letter-spacing: 0;
+}
+
+.pagination__title {
+	font-size: 19px;
+	color: #fff;
+	opacity: 0.66;
+}
+
+.pagination__links {
+	margin-top: 16px;
+	margin-bottom: 42px;
+}
+
+.pagination__link {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	opacity: 0.46;
+}
+
+.pagination__link:hover {
+	color: #fff;
+	opacity: 0.75;
+}
+
+.pagination__link:active {
+	color: #fff;
+	opacity: 0.9;
+}
+
+/* ----- Footer ----- */
+
+.footer {
+	padding-bottom: 44px;
+	background: #1f2531;
+	font-family: 'Museo Sans 100', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	letter-spacing: 0;
+	border-bottom: 18px solid #58647a
+}
+
+.logo-footer {
+	display: block;
+	width: 295px;
+	height: 137px;
+	background: url('../img/logo-footer.png') no-repeat center top;
+}
+
+.footer__texts {
+	margin-top: 37px;
+}
+
+.footer__text_address {
+	margin-top: 15px;
+}
+
+.footer__text {
+	width: 210px;
+	opacity: 0.45;
+}
+
+
+.company {
+	padding-top: 4px;
+	opacity: 0.63;
+}
+
+.company__letter {
+	width: 27px;
+	height: 25px;
+	margin-right: 10px;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+.company__text {
+	width: 145px;
+	font-size: 11px;
+}
+
+.company__text_big {
+	text-transform: uppercase;
+}
+
+.copy {
+	width: 140px;
+	margin-top: 25px;
+}
+
+.copy__text {
+	opacity: 0.45;
+}
+.copy__link {
+	color: #fff;
+	opacity: 0.45;
+	text-decoration: underline;
+}
+
+.copy__link:hover {
+	color: #fff;
+	opacity: 0.85;
+	text-decoration: none;
+}
+
+.copy__link:active {
+	opacity: 1;
+}
+
+.company__text_big {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.copy__text_bold {
+	font-family: 'Museo Sans 700', sans-serif;
+}
+
+.footer__btn {
+	display: block;
+    margin-left: auto;
+	padding: 7px 0 8px;
+    font-size: 13px;
+    margin-top: 69px;
+}
+
+.footer__btn:hover {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.35) inset;
+}
+
+.footer__btn:active {
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.45) inset;
+}
+
+/* ----- Top Navigation ----- */
+
+.nav-top {
+	padding: 67px 0 67px;
+	background: #fafafb;
+	letter-spacing: 0;
+}
+
+.page-info {
+	
+}
+
+.page-info__title {
+	font-size: 38px;
+}
+
+.page-info__links {
+	margin-top: 10px;
+	font-family: 'Museo Sans 300', sans-serif;
+	font-size: 16px;
+	color: #7e838d;
+}
+
+.page-info__link {
+	color: #49556b;
+	line-height: 0.9em;
+	border-bottom: 1px solid;
+}
+
+.page-info__icon {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	margin: 0 3px;
+}
+
+.page-info__name {
+	
+}
+
+.page-nav {
+	margin-top: 18px;
+}
+
+.page-nav__item {
+	display: block;
+}
+
+.page-nav__link {
+	display: block;
+	padding: 9px 14px;
+	border: 2px solid rgba(184, 28, 49, 0);
+	border-radius: 5%;
+	font-family: 'Museo Sans 700', sans-serif;
+	font-size: 16px;
+	color: #a1a6af;
+}
+
+.page-nav__link:hover {
+	border-color: rgba(184, 28, 49, 1);
+}
+
+/* ----- Main Page ----- */
 /* ----- Invite ----- */
 
 .invite {
 	padding: 201px 0 134px;
-	margin-top: -109px;
+	margin-top: -105px;
 	background: #d4dee1 url('../img/home/main-bg.jpg') no-repeat center top;
 	letter-spacing: 0;
 	border-bottom: 16px solid rgba(255, 255, 255, 0.15);
-}
-
-.invite__title {
-
 }
 
 .invite__text {
@@ -517,144 +756,4 @@ button:active {
 	font-size: 10.4px;
 }
 
-/* ----- Pagination ----- */
-
-.pagination {
-	background: #3a4456;
-	border-radius: 0;
-	padding-top: 40px;
-	letter-spacing: 0;
-}
-
-.pagination__title {
-	font-size: 19px;
-	color: #fff;
-	opacity: 0.66;
-}
-
-.pagination__links {
-	margin-top: 16px;
-	margin-bottom: 42px;
-}
-
-.pagination__link {
-	display: block;
-	font-size: 14px;
-	color: #fff;
-	opacity: 0.46;
-}
-
-.pagination__link:hover {
-	color: #fff;
-	opacity: 0.75;
-}
-
-.pagination__link:active {
-	color: #fff;
-	opacity: 0.9;
-}
-
-/* ----- Footer ----- */
-
-.footer {
-	padding-bottom: 44px;
-	background: #1f2531;
-	font-family: 'Museo Sans 100', sans-serif;
-	font-size: 12px;
-	color: #fff;
-	letter-spacing: 0;
-	border-bottom: 18px solid #58647a
-}
-
-.logo-footer {
-	display: block;
-	width: 295px;
-	height: 137px;
-	background: url('../img/logo-footer.png') no-repeat center top;
-}
-
-.footer__texts {
-	margin-top: 37px;
-}
-
-.footer__text_address {
-	margin-top: 15px;
-}
-
-.footer__text {
-	width: 210px;
-	opacity: 0.45;
-}
-
-
-.company {
-	padding-top: 4px;
-	opacity: 0.63;
-}
-
-.company__letter {
-	width: 27px;
-	height: 25px;
-	margin-right: 10px;
-	border: 1px solid #fff;
-	text-align: center;
-	line-height: 25px;
-	font-size: 15px;
-}
-
-.company__text {
-	width: 145px;
-	font-size: 10.5px;
-}
-
-.company__text_big {
-	text-transform: uppercase;
-}
-
-.copy {
-	width: 140px;
-	margin-top: 25px;
-}
-
-.copy__text {
-	opacity: 0.45;
-}
-.copy__link {
-	color: #fff;
-	opacity: 0.45;
-	text-decoration: underline;
-}
-
-.copy__link:hover {
-	color: #fff;
-	opacity: 0.85;
-	text-decoration: none;
-}
-
-.copy__link:active {
-	opacity: 1;
-}
-
-.company__text_big {
-	font-size: 12px;
-	text-transform: uppercase;
-}
-.copy__text_bold {
-	font-family: 'Museo Sans 700', sans-serif;
-}
-
-.footer__btn {
-	display: block;
-    margin-left: auto;
-	padding: 7px 0 8px;
-    font-size: 13px;
-    margin-top: 69px;
-}
-
-.footer__btn:hover {
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.35) inset;
-}
-
-.footer__btn:active {
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.45) inset;
-}
+/* ----- About ----- */
