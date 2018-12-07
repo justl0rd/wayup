@@ -27,6 +27,10 @@
     .galery__photo {
     	width: 100%;
     }
+    /* ----- Contacts Page----- */
+    .place {
+    	left: 476px;
+    }
 }
 
 /* 768 - 992 px */
@@ -94,6 +98,21 @@
     .advantage:after {
     	width: 100%;
     }
+    /* ----- Contacts Page----- */
+    .loc {
+    	padding-bottom: 25px;
+    }
+    .place {
+    	position: static;
+    	width: 100%;
+    	margin-top: 22px;
+    }
+    .place:before {
+    	display: none;
+    }
+    .place__texts {
+    	width: 372px;
+    }
 }
 
 /* 576 - 768 px */
@@ -123,6 +142,10 @@
     }
     .advantage__texts {
     	max-width: 400px;
+    }
+    /* ----- Contacts Page----- */
+    .place__texts {
+    	width: 275px;
     }
 }
 
@@ -226,4 +249,11 @@
     	width: 90%;
     	margin: 15px auto;
     }
+    .place__body {
+		flex-direction: column;
+    }
+    .place__texts {
+	    width: 100%;
+	    margin-top: 30px;
+	}
 }
