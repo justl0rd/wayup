@@ -29,6 +29,7 @@
     }
     /* ----- Contacts Page----- */
     .place {
+    	right: 0;
     	left: 476px;
     }
 }
