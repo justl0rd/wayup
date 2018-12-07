@@ -232,6 +232,7 @@ button:active {
 /* ----- Pagination ----- */
 
 .pagination {
+	border-radius: 0;
 	background: #3a4456;
 	padding-top: 40px;
 	letter-spacing: 0;
@@ -925,6 +926,13 @@ margin-top: 17px;
 	color: #fff;
 }
 
+.social__link_place:hover {
+	color: #c1c1c1;
+}
+.social__link_place:active {
+	color: #5a5a5a
+}
+
 .place__body {
 	margin-top: 45px;
 	letter-spacing: 0;
@@ -938,6 +946,14 @@ margin-top: 17px;
 
 .place__link {
 	color: #fff;
+}
+
+.place__link:hover {
+	color: #c1c1c1;
+}
+
+.place__link:active {
+	color: #5a5a5a;
 }
 
 .place__phones {
