@@ -32,6 +32,13 @@
     	right: 0;
     	left: 476px;
     }
+    /* ----- Services Page----- */
+    .page-nav_services {
+    	padding: 0;
+    }
+    .sidebar {
+    	padding-bottom: 170px;
+    }
 }
 
 /* 768 - 992 px */
@@ -114,6 +121,30 @@
     .place__texts {
     	width: 372px;
     }
+
+    /* ----- Services Page----- */
+    .sidebar {
+    	padding-bottom: 90px;
+    }
+
+    .interactive__nav {
+    	display: none;
+    }
+    .interactive__text {
+    	max-width: 100%;
+    }
+    .offer {
+    	max-width: 100%;
+    	margin-bottom: 45px;
+    }
+    .reviews__slides {
+    	width: 100%;
+    	max-width: 600px;
+    }
+    .reviews__comment {
+    	width: 100%;
+    	max-width: 90%;
+    }
 }
 
 /* 576 - 768 px */
@@ -148,6 +179,11 @@
     .place__texts {
     	width: 275px;
     }
+     /* ----- Services Page----- */
+     .interactive__icon {
+     	width: 160px;
+     	height: 160px;
+     }
 }
 
 /* 320 - 576 px */
@@ -257,4 +293,18 @@
 	    width: 100%;
 	    margin-top: 30px;
 	}
+     /* ----- Services Page----- */
+     .interactive__icon {
+     	margin-bottom: 30px;
+     }
+     .interactive__texts {
+     	text-align: center;
+     }
+     .offer {
+     	background-image: none;
+     }
+     .offer__link {
+     	display: block;
+     	margin-bottom: 10px;
+     }
 }

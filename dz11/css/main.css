@@ -105,15 +105,19 @@ a:active  {
 	text-decoration: none;
 }
 
+input:focus,
 input,
 input:hover,
-input:focus,
 input:active,
+button:focus,
 button,
 button:hover,
-button:focus,
 button:active {
 	outline: none;
+}
+
+.btn:focus {
+	box-shadow: none;
 }
 
 .btn {
@@ -127,12 +131,13 @@ button:active {
 }
 
 .btn:hover {
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.35)
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
 }
 
 .btn:active {
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.45)
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.45);
 }
+
 
 .red-color {
 	color: #b81c31;
@@ -423,6 +428,11 @@ button:active {
 	margin-top: 18px;
 }
 
+.page-nav_services {
+	padding: 0 17px 0 37px;
+	margin-top: 10px;
+}
+
 .page-nav__item {
 	display: block;
 }
@@ -628,10 +638,6 @@ button:active {
 	margin-bottom: 14px;
 }
 
-.topic__text {
-
-}
-
 /* ----- Info ----- */
 
 .info {
@@ -639,9 +645,6 @@ button:active {
 	padding: 40px 0 45px;
 	background: #58647a url('../img/home/main-texture-bg.png') no-repeat center top/cover;
 	color: #fff;
-}
-
-.mission {
 }
 
 .mission__title {
@@ -793,7 +796,6 @@ button:active {
 	max-width: 565px;
 }
 
-
 .advantage {
 	padding: 35px 0 0;
 }
@@ -929,6 +931,7 @@ margin-top: 17px;
 .social__link_place:hover {
 	color: #c1c1c1;
 }
+
 .social__link_place:active {
 	color: #5a5a5a
 }
@@ -975,18 +978,10 @@ margin-top: 17px;
 	margin-right: 8px;
 }
 
-.place__adress-text {
-
-}
-
 .place__mail-icon {
 	margin-left: 4px;
 	line-height: 26px;
 	margin-right: 4px;
-}
-
-.place__mail {
-
 }
 
 .place__texts {
@@ -1002,4 +997,281 @@ margin-top: 17px;
 .place__phone-icon_mirror {
 	margin-right: 1px;
     transform: rotate(90deg);
+}
+
+
+/* ----- Services ----- */
+
+.interactive {
+	padding: 42px 0 39px;
+	color: #fff;
+	background: #808798 url('../img/services/services-bg.jpg') no-repeat center top/cover;
+}
+
+.interactive__icon {
+	display: block;
+	margin: 0 auto;
+	width: 206px;
+	height: 206px;
+	border-radius: 50%;
+	border: 7px solid rgba(255, 255, 255, 0.39);
+}
+
+.interactive__title {
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 0.02em;
+    line-height: 1em;
+    margin-bottom: 19px;
+}
+
+.interactive__text {
+	margin-bottom: 17px;
+    max-width: 335px;
+    font-size: 15px;
+}
+
+.interactive__nav {
+	border: 2px solid rgba(255, 255, 255, 0.48);
+	padding: 16px 45px 11px 25px;
+	border-radius: 5px;
+}
+
+.interactive__nav-item {
+	margin-bottom: 11px;
+}
+
+.interactive__arrow {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	margin: 0 3px;
+}
+
+.interactive__link {
+	color: #fff;
+	font-size: 15px;
+}
+
+.interactive__link:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.interactive__link:active {
+	color: #5a5a5a;
+}
+
+/* ----- Services (Service block) ----- */
+
+.service__catecory {
+	margin-top: 55px;
+	letter-spacing: 0.02em;
+}
+
+.service__title {
+	margin-bottom: 25px;
+	letter-spacing: 0.02em;
+}
+
+.service__texts {
+	font-size: 15px;
+}
+
+.service__text {
+	margin-bottom: 18px;
+}
+
+.offer {
+	max-width: 470px;
+	margin-top: 37px;
+	padding: 23px 14px 28px 30px;
+	border: 2px solid rgba(88, 95, 107, 0.17);
+	border-radius: 5px;
+	background: url('../img/services/Conference-Call.png') no-repeat right 14px bottom 17px;
+}
+
+.offer__title {
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: #414449;
+}
+
+.offer__btn {
+	width: 157px;
+	margin: 18px 15px 15px 0;
+	font-size: 14px;
+	padding: 8px 0 9px;
+	color: #b81c31;
+	border: 2px solid;
+	background: transparent;
+	border-radius: 2px;
+}
+
+.offer__link {
+	font-size: 14px;
+	color: #585f6b;
+	font-family: 'Museo Sans 700', sans-serif;
+}
+
+.offer__link:hover {
+	color: #5d5d5d;
+}
+
+.offer__link:active {
+	color: #b7b7b7;
+}
+
+.offer__text {
+	width: 230px;
+	font-size: 12px;
+	color: #888d95;
+}
+
+/* ----- Services (Service block) ----- */
+
+.sidebar {
+	padding-top: 50px;
+	padding-bottom: 101px;
+	background: #fafafb;
+}
+
+.sidebar__title {
+	color: #58647a;
+	opacity: 0.68;
+	font-size: 18px;
+	margin-left: 26px;
+}
+
+.sidebar__menu {
+	margin-top: 41px;
+	border-top: 1px solid rgba(212, 212, 225, 0.72);
+}
+
+.sidebar__item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 14px 0 9px;
+	border-bottom: 1px solid rgba(212, 212, 225, 0.72);
+}
+
+.sidebar__link {
+	width: 200px;
+	color: #747487;
+	font-size: 15px;
+	font-family: 'Museo Sans 700', sans-serif;
+	line-height: 1.25em;
+}
+
+.sidebar__link:hover {
+	color: #5d5d5d;
+}
+
+.sidebar__link:active {
+	color: #b7b7b7;
+}
+
+
+.sidebar__box {
+	display: block;
+	width: 11px;
+	height: 11px;
+	border-radius: 2px;
+	background: #757487;
+	opacity: 0.57;
+	margin: 4px 17px 0 26px;
+}
+
+/* ----- Services (rew) ----- */
+
+.reviews {
+	margin-top: 58px;
+	position: relative;
+	letter-spacing: 0;
+}
+
+.reviews__slides {
+	width: 290px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.reviews__slide:focus {
+	outline: none;
+}
+
+.reviews__slide {
+	margin-top: 37px;
+}
+
+.reviews__photo {
+	width: 140px;
+	height: 140px;
+	margin-bottom: 18px;
+	margin-right: 6px;
+	border-radius: 50%;
+	border: 5px solid #656e8d;
+}
+
+.reviews__name {
+	font-size: 15px;
+	color: #747487;
+	margin-right: 8px;
+}
+
+.reviews__comment {
+	width: 285px;
+	letter-spacing: 0.02em;
+	font-size: 13px;
+	margin: 15px 0 12px;
+}
+
+.reviews__link:focus {
+	outline: none;
+}
+
+.reviews__link {
+	color: #2c60a0;
+	display: block;
+	margin-bottom: 13px;
+}
+
+.reviews__link:hover {
+	color: #5e80a8;
+}
+
+.slider-arrow-style {
+	position: absolute;
+	background: transparent;
+	color: #404048;
+	font-size: 17px;
+	cursor: pointer;
+	border: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	transition: all 0.2s ease;
+}
+
+.slider-arrow-style:hover {
+	background: rgba(0, 0, 0, 0.15);
+	border-radius: 50%;
+}
+.slider-arrow-style:active {
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 50%;
+}
+
+.prev {
+	top: 116px;
+	padding-left: 3px;
+	left: 25px;
+}
+
+.next {
+	top: 116px;
+	padding-right: 3px;
+	right: 21px;
 }

@@ -397,9 +397,7 @@
         var map = new google.maps.Map(document.getElementById('map'), {
           center: myLatLng,
           zoom: 17,
-          disableDefaultUI: true,
-          gestureHandling: 'none',
-          zoomControl: false
+          disableDefaultUI: true
         });
 
         // Create a marker and set its position.
@@ -410,7 +408,6 @@
           title: 'улица Базарная, 36, Одеса'
         });
       }
-    </script>
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXfjpn5QLFwZ4U01lOg7pcYFHJaWrpOh4&callback=initMap"
         async defer></script>
