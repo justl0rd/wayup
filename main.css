@@ -112,6 +112,7 @@ a {
     margin: 0 auto;
     padding: 50px 30px 40px 50px;
     background: #d1d1d1;
+    -webkit-clip-path: polygon(0px 20%, 100% -85%, 100% 80%, 0 185%);
     clip-path: polygon(0px 20%, 100% -85%, 100% 80%, 0 185%);
 }
 
