@@ -74,9 +74,10 @@ a.lightzoom {
   display: block;
   position: absolute;
   background: url("../img/close.png") no-repeat right 10px top 10px;
-  width: 100%;
-  height: 100%;
+  width: 30px;
+  height: 30px;
   top: 0;
+  right: 0;
   text-indent: -9999px;
   padding: 5px;
   opacity: 0.5;

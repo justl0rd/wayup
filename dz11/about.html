@@ -441,7 +441,10 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/lightzoom.js"></script>
 	<script type="text/javascript">
-  		jQuery('.lightzoom').lightzoom();
+  		jQuery('.lightzoom').lightzoom({
+  			isWindowClickClosing: true,
+  			isEscClosing: true
+  		});
 	</script>
 </body>
 </html>
