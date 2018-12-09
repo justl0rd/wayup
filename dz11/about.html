@@ -29,6 +29,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css" integrity="sha384-QT2Z8ljl3UupqMtQNmPyhSPO/d5qbrzWmFxJqmY7tqoTuT2YrQLEqzvVOP2cT5XW" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+	<!-- lightzoom -->
+	<link rel="stylesheet" href="css/lightzoom.css" type="text/css">
 	<!-- CSS Styles -->
 	<link rel="stylesheet" href="css/main.css">
 		<!-- Media Queries CSS -->
@@ -203,33 +205,40 @@
 					</h2>
 					<div class="galery__items d-flex justify-content-between">
 						<div class="galery__item">
-							<img src="img/about/galery-1.jpg" alt="Galery photo" class="galery__photo">
-							<div class="galery__overlay d-flex align-items-center justify-content-center">
-								<i class="fas fa-arrows-alt-v arrow-icon"></i>
-								<i class="fas fa-expand expand-icon"></i>
-							</div>
+							<a href="img/about/galery-1.jpg" class="lightzoom">
+								<img src="img/about/galery-1.jpg" alt="Galery photo" class="galery__photo">
+								<div class="galery__overlay d-flex align-items-center justify-content-center">
+									<i class="fas fa-arrows-alt-v arrow-icon"></i>
+									<i class="fas fa-expand expand-icon"></i>
+								</div>
+							</a>
 						</div>
 						<div class="galery__item">
-							<img src="img/about/galery-2.jpg" alt="Galery photo" class="galery__photo">
-							<div class="galery__overlay d-flex align-items-center justify-content-center">
-								<i class="fas fa-arrows-alt-v arrow-icon"></i>
-								<i class="fas fa-expand expand-icon"></i>
-							</div>
-						
+							<a href="img/about/galery-2.jpg" class="lightzoom">
+								<img src="img/about/galery-2.jpg" alt="Galery photo" class="galery__photo">
+								<div class="galery__overlay d-flex align-items-center justify-content-center">
+									<i class="fas fa-arrows-alt-v arrow-icon"></i>
+									<i class="fas fa-expand expand-icon"></i>
+								</div>
+							</a>
 						</div>
 						<div class="galery__item">
-							<img src="img/about/galery-3.jpg" alt="Galery photo" class="galery__photo">
-							<div class="galery__overlay d-flex align-items-center justify-content-center">
-								<i class="fas fa-arrows-alt-v arrow-icon"></i>
-								<i class="fas fa-expand expand-icon"></i>
-							</div>
+							<a href="img/about/galery-3.jpg" class="lightzoom">
+								<img src="img/about/galery-3.jpg" alt="Galery photo" class="galery__photo">
+								<div class="galery__overlay d-flex align-items-center justify-content-center">
+									<i class="fas fa-arrows-alt-v arrow-icon"></i>
+									<i class="fas fa-expand expand-icon"></i>
+								</div>
+							</a>
 						</div>
 						<div class="galery__item">
-							<img src="img/about/galery-4.jpg" alt="Galery photo" class="galery__photo">
-							<div class="galery__overlay d-flex align-items-center justify-content-center">
-								<i class="fas fa-arrows-alt-v arrow-icon"></i>
-								<i class="fas fa-expand expand-icon"></i>
-							</div>
+							<a href="img/about/galery-4.jpg" class="lightzoom">
+								<img src="img/about/galery-4.jpg" alt="Galery photo" class="galery__photo">
+								<div class="galery__overlay d-flex align-items-center justify-content-center">
+									<i class="fas fa-arrows-alt-v arrow-icon"></i>
+									<i class="fas fa-expand expand-icon"></i>
+								</div>
+							</a>	
 						</div>
 					</div>
 				</div>
@@ -429,5 +438,10 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lightzoom.js"></script>
+	<script type="text/javascript">
+  		jQuery('.lightzoom').lightzoom();
+	</script>
 </body>
 </html>

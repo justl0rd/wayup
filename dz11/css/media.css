@@ -100,6 +100,12 @@
 	.galery__item {
     	width: 120px;
     }
+    .arrow-icon {
+    	display: none;
+    }
+    .expand-icon {
+    	display: block;
+    }
     .advantage__texts {
     	max-width: 580px;
     }
