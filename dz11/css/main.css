@@ -232,8 +232,69 @@ button:active {
 .nav__btn-icon {
 	position: absolute;
 }
+.callback-block {
+	display: none;
+}
 
+.callback {
+	display: none;
+	position: absolute;
+	max-width: 300px;
+	padding: 20px;
+	left: 50%;
+	background: rgba(255, 255, 255, 0.8);
+	transform: translateX(-50%);
+	border: 1px solid rgba(88, 95, 107, 0.17);
+    border-radius: 5px;
+    z-index: 6;
+}
 
+.callback__title {
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.callback__input {
+	display: block;
+	margin: 5px auto 15px;
+	width: 260px;
+	height: 40px;
+	font-family: 'Museo Sans 300', sans-serif;
+	color: #000;
+	padding-left: 10px;
+}
+
+.callback__text {
+	font-size: 13px;
+	text-align: center;
+	width: 260px;
+	color: #212121;
+	display: block;
+	margin: 0 auto 15px;
+}
+
+.callback__btn {
+	display: block;
+	padding: 7px 0 8px;
+	margin: 0 auto;
+	font-size: 13px;
+}
+
+.callback-block__bg {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5) url(../img/close.png) no-repeat right 10px top 10px;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.callback-active {
+	display: block;
+}
 /* ----- Pagination ----- */
 
 .pagination {
