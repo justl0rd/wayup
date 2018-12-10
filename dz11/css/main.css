@@ -666,6 +666,10 @@ button:active {
 	font-size: 16px;
 }
 
+.reasons__btn:hover {
+	color: #fff;
+}
+
 /* ----- Topics ----- */
 
 .topics {
