@@ -385,15 +385,18 @@
 	</footer>
 	<div class="callback-block">
 		<form class="callback">
-			<h2 class="callback__title">
+			<h6 class="callback__title">
 				Заказать звонок
-			</h2>
-			<input class="callback__input" type="name" name="name" placeholder="Введите имя">
-			<input class="callback__input" type="tel" name="phone" placeholder="Введите номер телефона" required>
+			</h6>
 			<p class="callback__text">
-				Наши консультанты свяжутся с Вами максимально быстро и ответят на все вопросы
+				Заполните форму и мы свяжемся с вами как можно скорее. До скорой встречи
 			</p>
+			<input class="callback__input" type="name" name="name" placeholder="Имя" required>
+			<input class="callback__input" type="email" name="mail" placeholder="E-mail" required>
+			<input class="callback__input" type="tel" name="phone" placeholder="Телефон" required>
+
 			<button class="btn callback__btn">
+				<i class="fas fa-phone btn__phone"></i>
 				Заказать звонок
 			</button>
 		</form>
@@ -427,7 +430,7 @@
     </script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXfjpn5QLFwZ4U01lOg7pcYFHJaWrpOh4&callback=initMap"
         async defer></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script type="text/javascript" src="js/callback.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

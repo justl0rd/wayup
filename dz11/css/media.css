@@ -313,4 +313,14 @@
      	display: block;
      	margin-bottom: 10px;
      }
+    /* ----- Modal window----- */
+    .callback {
+		width: 90%;
+		padding: 20px;
+	}
+	.callback__input,
+	.callback__text,
+	.callback__btn {
+		width: 90%;
+	}
 }
