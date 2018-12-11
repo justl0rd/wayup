@@ -35,6 +35,14 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+	<div id="page-preloader">
+		<div class="cssload-thecube">
+			<div class="cssload-cube cssload-c1"></div>
+			<div class="cssload-cube cssload-c2"></div>
+			<div class="cssload-cube cssload-c4"></div>
+			<div class="cssload-cube cssload-c3"></div>
+		</div>
+	</div>
 	<header class="header" id="header">
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
@@ -85,7 +93,7 @@
 			</div>
 		</div>
 	</header>
-	<section class="invite">
+	<section class="invite" id="invite" data-type="background" data-speed="6">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -499,5 +507,7 @@
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/parallax-bg.js"></script>
+	<script src="js/preloader.js"></script>
 </body>
 </html>
