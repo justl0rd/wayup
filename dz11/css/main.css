@@ -548,7 +548,7 @@ button:active {
 .invite {
 	padding: 201px 0 134px;
 	margin-top: -105px;
-	background: #d4dee1 url('../img/home/main-bg.jpg') no-repeat center top;
+	background: #d4dee1 url('../img/home/main-bg.jpg') no-repeat fixed center top;
 	letter-spacing: 0;
 	border-bottom: 16px solid rgba(255, 255, 255, 0.15);
 }
